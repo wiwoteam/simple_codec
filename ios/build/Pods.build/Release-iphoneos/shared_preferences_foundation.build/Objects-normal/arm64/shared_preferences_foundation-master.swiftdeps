@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "59700895a3b32713abb7ad0f1c1174d7b03dfa0ce55e83241c2030a9804ca14e"
+build_start_time: [1757233204, 328917000]
+build_end_time: [1757233208, 446221000]
+inputs:
+  ? "/Users/user/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.4/darwin/shared_preferences_foundation/Sources/shared_preferences_foundation/SharedPreferencesPlugin.swift"
+  : [1755161079, 201451032]
+  ? "/Users/user/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.4/darwin/shared_preferences_foundation/Sources/shared_preferences_foundation/messages.g.swift"
+  : [1755161079, 201760906]

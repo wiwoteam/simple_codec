@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/user/Projects/flutter/webview-release/simple_codec/build/ios/Release-iphoneos/OrderedSet/OrderedSet.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/user/Projects/flutter/webview-release/simple_codec/ios/build/Pods.build/Release-iphoneos/OrderedSet.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/user/Projects/flutter/webview-release/simple_codec/build/ios/Release-iphoneos/OrderedSet/OrderedSet.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "OrderedSet-Swift.h",
+      "external-contents": "/Users/user/Projects/flutter/webview-release/simple_codec/ios/build/Pods.build/Release-iphoneos/OrderedSet.build/unextended-interface-header.h",
+    }]
+  }]
+}

@@ -26,12 +26,54 @@ migrate_working_dir/
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
+/.dart_tool/
+.packages
+pubspec.lock
+
+# Build outputs
+build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+android/.gradle/
+android/app/build/
+android/build/
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Personal/secret/certificates (optional, uncomment if needed)
+# certificates/
+# *.p8
+# *.pem
+# *.cer
+# *.mobileprovision
+
+# Others
+*.log
+*.tmp
+*.swp
 
 # Symbolication related
 app.*.symbols
@@ -43,3 +85,5 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+

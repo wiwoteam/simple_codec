@@ -1,0 +1,8 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "797418c9695de8a0d38e789b8702c515cb82a1c17ffd9d3957b2a87219d6125a"
+build_start_time: [1757233231, 467059000]
+build_end_time: [1757233237, 332558000]
+inputs:
+  "/Users/user/Projects/flutter/webview-release/simple_codec/ios/Runner/AppDelegate.swift": [1757224786, 868839076]
+  ? "/Users/user/Projects/flutter/webview-release/simple_codec/ios/build/Runner.build/Release-iphoneos/Runner.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1757233231, 460920432]
