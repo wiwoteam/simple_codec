@@ -68,7 +68,9 @@ class PolicyService {
         '/' +
         folder +
         '/' +
-        file;
+        file +
+        '?t=' +
+        '${DateTime.now().millisecondsSinceEpoch}';
   }
 
   static Map<String, dynamic>? decodeBase64ToJson(String base64Str) {
@@ -89,7 +91,7 @@ class PolicyService {
         final String region = locale.split('_').last;
         return region;
       }
-      return 'VN';
+      return 'US';
     } catch (e) {
       return 'US';
     }
@@ -131,6 +133,8 @@ class PolicyService {
     final String deviceRegion = getDeviceRegion();
     final String bundleId = await getBundleId();
     final String deviceOS = getDeviceOS();
+
+    if (deviceRegion != 'VN') return null;
 
     try {
       final String githubUrl = await _githubConfigUrl;
